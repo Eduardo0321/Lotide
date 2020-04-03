@@ -13,7 +13,7 @@ let eqArrays = function(array1, array2) {
  }
 
 
-const eqObjects = function(object1, object2) {
+let eqObjects = function(object1, object2) {
  let objArr1 = Object.keys(object1);
  let objArr2 = Object.keys(object2);
 
